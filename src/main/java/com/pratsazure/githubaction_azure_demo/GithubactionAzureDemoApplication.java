@@ -11,7 +11,7 @@ public class GithubactionAzureDemoApplication {
 
 	@GetMapping("/message")
 	public String message() {
-		return "Congratulations Welcome !";
+		return "Congratulations Welcome Prathap !";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(GithubactionAzureDemoApplication.class, args);
